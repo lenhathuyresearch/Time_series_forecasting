@@ -1,0 +1,119 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Kotlin ###
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+# --- Dependencies ---
+# Các gem được cài đặt bởi Bundler
+*.gem
+/.bundle/
+/vendor/bundle/
+/lib/bundler/man/
+
+# --- Logs và Temporary Files ---
+# Các tệp nhật ký và tệp tạm phát sinh khi chạy ứng dụng
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# --- Environment & Secrets ---
+# Cực kỳ quan trọng: Không đưa thông tin bảo mật lên Git
+.env
+.env*.local
+/config/master.key
+/config/credentials/*.key
+/config/database.yml
+
+# --- Testing ---
+# Các tệp báo cáo độ bao phủ code (Coverage)
+/coverage/
+/spec/reports/
+
+# --- IDEs & System Files ---
+# Các tệp cấu hình của trình soạn thảo và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+## Visual Studio Temp Files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## MSBuild/Visual Studio output
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Roslyn cache directories
+*.browser
+*.vshost.exe*
+*.resource
+*.cache
+*.o
+
+## Publish output
+*.publish.
+publish/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.cache
+*.opener
+
+## Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Environment secrets (Nếu bạn dùng Web API/ASP.NET)
+.env
+appsettings.Development.json
